@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>公司简介</title>
+		 <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="headerWrap">
+			<div class="header w1200 cleafix">
+				<!--logo-->
+				<div class="logo fl"><a href="#"><img src="img/logo.png"></a></div>
+				<!--nav-->
+				<div class="nav fr">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li class="cur"><a href="profile.html">公司简介</a></li>
+						<li><a href="business.html">业务范围</a></li>
+						<li><a href="case.html">典型案例</a></li>
+						<li><a href="news.html">公司新闻</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="slideBox">
+			<div class="bd">
+				<ul>
+					<li>
+						<div class="slideImg"><a href="#"><img src="img/banner3.jpg" /></a></div>
+						<div class="slideText w1200">
+							<h2>企业“互联网+”的执行落地者</h2>
+							<p>以艰苦的作风打拼坚实的企业基础；以诚实的信念承诺一流的企业服务；实干的精神创造高效的<br />企业业绩，执着追求完美品质 文章来源于易贤</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--页面主体部分-->
+		<div class="mainCaseWrap">
+			<div class="mainCase w1200">
+				<div class="caseTitle">
+					<h2>您当前所在位置：首页-公司简介</h2>
+				</div>
+				<div class="caseBom caseBom1">
+						<p>电子产品销售;日用家电零售;五金产品零售;塑胶表面处理;</p>
+							<p>软件开发;集成电路设计;集成电路芯片及产品销售;电子元器件零售;</p>
+								<p>国内贸易代理;技术进出口;进出口代理;货物进出口;</p>
+				
+					<h6><img src="img/img1.jpg"><em>（发表于二零二壹年五月）</em></h6>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footerWrap">
+			<div class="footer w1200 cleafix">
+				<div class="fooL fl">
+					<h2><em>CONTACT US</em>联系我们</h2>
+					<h2>广州鸿源达技术有限公司</h2>
+					<p><em>电<b></b>话：</em>1856551**** / 1345044****</p>
+					<p><em>邮<b></b>箱：</em>903456613@qq.com</p>
+					<p><em>地<b></b>址：</em>广州市天河区科林路18号6栋301-1659房</p>
+				</div>
+				<div class="fooR fr">
+					<h2><label>您的姓名：</label><input type="text" class="fooText" /></h2>
+					<h2><label>联系方式：</label><input type="text" class="fooText" /></h2>
+					<h2><label>留言建议：</label><textarea></textarea></h2>
+					<h3><input type="button" value="提交"  id="btnSubmit" /></h3>
+				</div>
+			</div>
+					<div class="footerB">Copyright © 2021-2022 广州鸿源达技术有限公司版权所有</div>
+		</div>
+		<script type="text/javascript">
+			$(".newC").height($(".introNews").height() - 130 + "px");
+			$("#btnSubmit").click(function(){
+				alert("我们已经收到，感谢您的反馈！");
+			});	
+		</script>
+	</body>
+</html>
