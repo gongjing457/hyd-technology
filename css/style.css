@@ -1,0 +1,39 @@
+body {
+	font-family: "微软雅黑", Arial, Helvetica;
+}
+.footer{  padding:20px;
+
+}
+a{ 
+    font-size: 18px; 
+    }
+img {
+	width: 100%;
+}
+
+p,
+h4 {
+	line-height: 40px;
+}
+
+.glyphicon {
+	color: #337ab7;
+}
+
+.mainbox {
+
+	min-height: 320px;
+
+}
+
+.timeline {
+
+	background-color: #337ab7;
+	color: #ffffff;
+	height: 100px;
+	line-height: 100px
+}
+
+.headerbordered {
+	border-bottom: 1px solid #ddd;
+}
